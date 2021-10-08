@@ -1,7 +1,14 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    background-color: lightcyan
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
+
+.header {
+    padding: 60px;
+    text-align: left;
+    background-color: lightcyan;
+    color: blueviolet;
+    font-size: 30px;
 }
 
 h1 {
@@ -11,11 +18,19 @@ h1 {
 }
 
 h2 {
+    padding: 35px;
+    text-align: center;
+    background-color: lightcyan;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: turquoise
+    color: turquoise;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: black;
 }
