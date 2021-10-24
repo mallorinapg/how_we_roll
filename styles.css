@@ -29,6 +29,12 @@ h2 {
     margin-bottom: 30px;
 }
 
+.caption {
+    color: white;
+    font-size: 24px;
+    font-style: bold;
+}
+
 p {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -38,4 +44,12 @@ p {
 
 footer {
     text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    p.caption {
+        font-size: 22px;
+        color: black;
+        display: block;
+    }
 }
